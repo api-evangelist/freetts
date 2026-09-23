@@ -1,0 +1,29 @@
+# Front Door AI Index — freetts — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: freetts
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.freetts.org
+  final_host: freetts.org
+  ownership: own
+  owner: freetts
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 24
+  host_score: 24
+  density: 5.69
+  words: 4220
+  tiers:
+    agentic: 1
+    core: 23
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 20
+    neural network: 2
+    deep learning: 1
+    prompts: 1
+    smart: 1
