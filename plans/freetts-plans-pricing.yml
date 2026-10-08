@@ -100,3 +100,32 @@ enterprise: >-
   No enterprise tier and no "contact sales" plan. The contact page invites
   business inquiries about API integration and custom voice solutions, but no
   enterprise pricing is published.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - metered
+  - subscription
+  units: []
+  plans:
+  - name: Free
+    access: other
+    model: metered
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: PRO
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Creator
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
