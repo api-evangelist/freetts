@@ -1,4 +1,4 @@
-# free-tts
+# FreeTTS
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cloud text-to-speech / AI voice service (freetts.org) offering 400+ neural voices across 75+ languages via a REST/JSON API, plus speech-to-text, AI video/voiceover, audiobook generation, and browser extensions. Backend proxies Microsoft Azure Neural TTS.
+Cloud text-to-speech / AI voice service (freetts.org) offering neural voices across 75+ languages via a small REST/JSON API, plus speech-to-text, AI video and voiceover, audiobook generation, an SRT subtitle surface, and first-party Chrome, Edge and Firefox extensions. Built and operated by Outline Technologies (outline.ad), bootstrapped, founded 2025, hosted on Hetzner in Falkenstein DE behind Cloudflare. The API is a proxy over third-party neural TTS: the live GET /api/voices catalogue probed 2026-08-28 returned 1,410 voices across 152 locales sourced from Google (788), Microsoft Edge (318) and Microsoft Azure (304), of which the 318 Edge voices are the free tier. FreeTTS publishes no OpenAPI, no apis.json, no MCP server and no agent card.
+
+**Areas:** Text-to-Speech · Speech Synthesis · AI-voice · Audio · Media · Accessibility · Speech-to-Text · Content Creation · Developer Tools
+
+## FreeTTS on APIs.io
+
+Everything profiled for FreeTTS is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/freetts/](https://apis.io/providers/freetts/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [FreeTTS REST API](https://apis.io/apis/freetts/freetts-rest-api/) — REST/JSON API for text-to-speech synthesis, audio and SRT subtitle download, and voice listing. Uses x-api-key header auth. Endpoints: POST /api/v1/tts, GET…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [freetts-mcp.yml](https://apis.io/servers/freetts/freetts-mcp-yml/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [FreeTTS Voice](https://apis.io/schemas/freetts/freetts-voice/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Freetts Authentication](https://apis.io/security/freetts/freetts-authentication/)
+- [Freetts Domain Security](https://apis.io/security/freetts/freetts-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Freetts Plans Pricing](https://apis.io/plans/freetts/freetts-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Freetts Rate Limits](https://apis.io/rate-limits/freetts/freetts-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.freetts.org/)
+- [Pricing](https://freetts.org/pricing)
+- [Sign up](https://freetts.org/login)
+- [Support](https://freetts.org/contact)
+- [Blog](https://freetts.org/blog)
+- [Terms of service](https://freetts.org/terms)
+- [Privacy policy](https://freetts.org/privacy)
+
+## API Evangelist rating
+
+**Kin Score 43.1** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 7.2 |
+| Contract governance | 18.2 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 76.3 |
+
+**Agent readiness 7.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 24.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/freetts/](https://apis.io/providers/freetts/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FreeTTS: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/freetts/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
